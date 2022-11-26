@@ -13,7 +13,7 @@ import {
 export const Statistics = ({ title, stats }) => {
   return (
     <Section>
-      <Title>{title}</Title>
+      {title && <Title>{title}</Title>}
       <Info>
         {stats.map(({ id, label, percentage, bgc = getRandomHexColor() }) => (
           <InfoItem key={id} style={{ backgroundColor: `${bgc}` }}>
