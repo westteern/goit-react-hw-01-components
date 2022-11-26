@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { randomHexColor } from 'components/utils/getRandomColor';
 
 export const Section = styled.section`
   width: 250px;
@@ -28,6 +29,7 @@ export const InfoItem = styled.li`
   flex-direction: column;
   align-items: center;
   width: 60px;
+  background-color: ${randomHexColor};
   :first-of-type {
     border-left: none;
   }

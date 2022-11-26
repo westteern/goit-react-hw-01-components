@@ -1,5 +1,5 @@
 import { GlobalStyle } from './GlobalStyle';
-import { Profile } from './UserProfile/UserProfile';
+import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendsList } from './FriendList/FriendList';
 import { HistoryTransaction } from './Transactions/Transactions';
