@@ -40,7 +40,7 @@ export const UserInfo = styled.p`
   letter-spacing: 0.03em;
 `;
 
-export const UserStats = styled.ul`
+export const Stats = styled.ul`
   display: flex;
   justify-content: space-around;
   gap: 10px;
@@ -48,20 +48,20 @@ export const UserStats = styled.ul`
   background-color: #e0ca1d;
   border-radius: 0 0 4px 4px;
 `;
-export const UserStatsItem = styled.li`
+export const StatsItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
 
-export const StatsLabel = styled.span`
+export const Label = styled.span`
   margin-bottom: 6px;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 700;
   color: #393e46;
 `;
-export const StatsQuantity = styled.span`
+export const Quantity = styled.span`
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;

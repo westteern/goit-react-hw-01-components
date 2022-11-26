@@ -1,8 +1,9 @@
 import { GlobalStyle } from './GlobalStyle';
 import { Profile } from './UserProfile/UserProfile';
+import { Statistics } from './Statistics/Statistics';
 
 import user from 'data/user.json';
-// import data from 'data/data.json';
+import data from 'data/data.json';
 // import friends from 'data/friends.json';
 // import transactions from 'data/transactions.json';
 
@@ -17,7 +18,9 @@ export const App = () => {
         avatar={user.avatar}
         followers={user.stats.followers}
         views={user.stats.views}
-        likes={user.stats.likes}/>
+        likes={user.stats.likes}
+      />
+      <Statistics title="Upload stats" stats={data} />
     </>
   );
 };

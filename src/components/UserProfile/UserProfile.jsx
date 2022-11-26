@@ -6,12 +6,11 @@ import {
   UserImage,
   Username,
   UserInfo,
-  UserStats,
-  UserStatsItem,
-  StatsLabel,
-  StatsQuantity,
+  Stats,
+  StatsItem,
+  Label,
+  Quantity,
 } from './UserProfile.styled';
-
 
 export const Profile = ({
   username,
@@ -33,20 +32,20 @@ export const Profile = ({
         <UserInfo>{location}</UserInfo>
       </Description>
 
-      <UserStats>
-        <UserStatsItem>
-          <StatsLabel>Followers</StatsLabel>
-          <StatsQuantity>{followers}</StatsQuantity>
-        </UserStatsItem>
-        <UserStatsItem>
-          <StatsLabel>Views</StatsLabel>
-          <StatsQuantity>{views}</StatsQuantity>
-        </UserStatsItem>
-        <UserStatsItem>
-          <StatsLabel>Likes</StatsLabel>
-          <StatsQuantity>{likes}</StatsQuantity>
-        </UserStatsItem>
-      </UserStats>
+      <Stats>
+        <StatsItem>
+          <Label>Followers</Label>
+          <Quantity>{followers}</Quantity>
+        </StatsItem>
+        <StatsItem>
+          <Label>Views</Label>
+          <Quantity>{views}</Quantity>
+        </StatsItem>
+        <StatsItem>
+          <Label>Likes</Label>
+          <Quantity>{likes}</Quantity>
+        </StatsItem>
+      </Stats>
     </ProfileCard>
   );
 };
