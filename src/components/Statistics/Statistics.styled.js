@@ -9,9 +9,9 @@ export const Section = styled.section`
 `;
 
 export const Title = styled.h2`
-  padding: 20px 0;
+  padding: 15px 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
