@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   width: 250px;
-  border: 2px solid #393e46;
   border-radius: 4px;
   margin-bottom: 30px;
   margin-left: 30px;
+  box-shadow: 4px 4px 8px 9px rgba(34, 60, 80, 0.2);
 `;
 
 export const Title = styled.h2`
@@ -28,8 +28,6 @@ export const InfoItem = styled.li`
   flex-direction: column;
   align-items: center;
   width: 60px;
-  border-top: 2px solid #393e46;
-  border-left: 2px solid #393e46;
   :first-of-type {
     border-left: none;
   }
