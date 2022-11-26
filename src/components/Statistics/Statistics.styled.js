@@ -19,8 +19,6 @@ export const Title = styled.h2`
 export const Info = styled.ul`
   display: flex;
   align-items: center;
-  border-top: 2px solid #393e46;
-  //   background-color: #f2e7d5;
 `;
 
 export const InfoItem = styled.li`
@@ -28,6 +26,7 @@ export const InfoItem = styled.li`
   flex-direction: column;
   align-items: center;
   width: 60px;
+  border-top: 2px solid #393e46;
   border-left: 2px solid #393e46;
   :first-of-type {
     border-left: none;
@@ -39,12 +38,12 @@ export const Label = styled.span`
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
-  color: #5f6773;
+  color: #fafcff;
 `;
 
 export const Percent = styled.span`
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #393e46;
+  color: #fafcff;
 `;

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { getRandomHexColor } from 'components/utils/getRandomColor';
 
 import {
   Section,
@@ -14,10 +15,10 @@ export const Statistics = ({ title, stats }) => {
     <Section>
       <Title>{title}</Title>
       <Info>
-        {stats.map(stat => (
-          <InfoItem key={stat.id} type={stat.label}>
-            <Label>{stat.label}</Label>
-            <Percent>{stat.percentage}%</Percent>
+        {stats.map(({ id, label, percentage, bgc = getRandomHexColor() }) => (
+          <InfoItem key={id} style={{ backgroundColor: `${bgc}` }}>
+            <Label>{label}</Label>
+            <Percent>{percentage}%</Percent>
           </InfoItem>
         ))}
       </Info>
