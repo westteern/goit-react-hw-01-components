@@ -4,6 +4,8 @@ export const Section = styled.section`
   width: 250px;
   border: 2px solid #393e46;
   border-radius: 4px;
+  margin-bottom: 30px;
+  margin-left: 30px;
 `;
 
 export const Title = styled.h2`
