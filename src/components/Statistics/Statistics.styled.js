@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  width: 300px;
+  width: 250px;
   border: 2px solid #393e46;
   border-radius: 4px;
 `;
@@ -37,14 +37,14 @@ export const InfoItem = styled.li`
 export const Label = styled.span`
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #5f6773;
 `;
 
 export const Percent = styled.span`
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #393e46;
 `;
