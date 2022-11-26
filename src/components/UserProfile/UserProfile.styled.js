@@ -13,7 +13,7 @@ export const Description = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
   padding: 8px;
   background-color: #53aecf;
   border-radius: 4px 4px 0 0;
